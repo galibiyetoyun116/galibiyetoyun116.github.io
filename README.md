@@ -528,3 +528,156 @@ function logout() {
 
 checkLogin();
 </script>
+
+galibiyetoyun116.github.io
+│
+├── index.html
+├── style.css
+│
+├── img
+│   └── futbol.jpg
+│
+└── oyun
+    └── futbol.html<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+
+<title>Futbol Oyunu Oyna | Galibiyet Oyun</title>
+<meta name="description" content="Ücretsiz futbol oyunu oyna. Tarayıcıdan hemen başla.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Poppins, sans-serif;
+  text-align: center;
+}
+iframe {
+  width: 100%;
+  height: 80vh;
+  border: none;
+}
+a {
+  color: #22c55e;
+  text-decoration: none;
+}
+</style>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<h1>⚽ Futbol Oyunu</h1>
+
+<iframe src="https://itch.io/embed-upload/000000"></iframe>
+
+<br><br>
+<a href="../index.html">← Ana sayfaya dön</a>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+
+<title>Galibiyet Oyun – Ücretsiz Online Oyunlar</title>
+
+<meta name="description" content="Galibiyet Oyun'da ücretsiz futbol ve aksiyon oyunlarını mobil ve bilgisayardan oyna.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>🎮 Galibiyet Oyun</h1>
+  <p>Ücretsiz Online Oyunlar</p>
+</header>
+
+<section class="games">
+
+  <div class="card">
+    <img src="img/futbol.jpg" alt="Futbol oyunu oyna">
+    <h3>Futbol Oyunu</h3>
+    <a href="oyun/futbol.html">Oyna</a>
+  </div>
+
+</section>
+
+<footer>
+© 2026 Galibiyet Oyun — Tüm hakları saklıdır.
+</footer>
+
+</body>
+</html>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  background: #020617;
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 26px;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 15px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card h3 {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.card a {
+  display: block;
+  background: #22c55e;
+  color: black;
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #020617;
+  margin-top: 30px;
+}
